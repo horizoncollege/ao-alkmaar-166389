@@ -1,0 +1,115 @@
+body {
+  background-color: #FAF9F7;
+}
+
+.navbar {
+  flex-direction: row;
+  height: 40px;
+  font-size: 16px;
+  font-family: Courier, "monospace";
+  font-stretch: 100%;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 500;
+  background: #000563;
+  color: #f5f5f5;
+  height: 50px;
+}
+
+.levelbar {
+  height: 100%;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+display: flex;
+}
+
+.Bitacademy {
+  height: 36px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 5px;
+  background: transparent;
+
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #69899F;
+  box-shadow: 5px 5px 5px darkgray;
+  width: 60%;
+}
+
+.proname {
+  border-bottom: 1px solid lightslategray;
+}
+
+table td:first-child {
+  border-left: 0px solid #000000;
+  padding: 10px;
+  border-bottom: 1px solid lightslategray;
+}
+
+table th {
+  padding: 5px;
+  flex-direction: row;
+  border-bottom: 1px solid lightslategray;
+}
+
+.button {
+  background-color: green;
+  color: white;
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+  border-color: #69899F;
+}
+
+.profile.png {
+  border-radius: 5px;
+}
+
+.tabeltekst {
+  align-content: center;
+  background-color: white;
+}
+
+.growth {
+  padding-top: 10px;
+  padding-left: 20px;
+  position: relative;
+  width: 350px;
+  background-color: white;
+  border-radius: 5px;
+  border-color: #69899F;
+  box-shadow: 5px 5px 5px darkgray;
+  outline: 1px solid darkgray;
+}
+
+.growthtekst {
+  align-content: center;
+  font-family: Courier, "monospace";
+}
+
+.flexgrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  right: -100px;
+}
